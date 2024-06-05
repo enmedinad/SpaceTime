@@ -20,7 +20,7 @@ body{
 /*Main*/
 #home-body{
   font-weight: 400;
-  background-image: url(../../website/assets/home/background-home-desktop.jpg);
+  background-image: url(../home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -226,7 +226,7 @@ body{
     #home-body{
         text-align: center;
         padding-bottom: 90px;
-        background-image: url(../../website/assets/home/background-home-tablet.jpg);
+        background-image: url(../home/background-home-tablet.jpg);
         background-size: cover;
         background-position: center;
         background-position-y: bottom;
@@ -337,7 +337,7 @@ body{
         padding-left: 5% !important;
     }
     #home-body{
-        background-image: url(../../website/assets/home/background-home-mobile.jpg);
+        background-image: url(../home/background-home-mobile.jpg);
     }
 }
 /*Mobile*/

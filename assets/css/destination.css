@@ -1,6 +1,6 @@
 /*Desktop*/
 #destination-body{
-    background-image: url(../../website/assets/destination/background-destination-desktop.jpg);
+    background-image: url(../destination/background-destination-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 40px;
@@ -194,7 +194,7 @@
 }
 @media  screen and (max-width:768px) {
     #destination-body{
-        background-image: url(../../website/assets/destination/background-destination-tablet.jpg);
+        background-image: url(../destination/background-destination-tablet.jpg);
         background-size: cover;
         background-repeat: repeat-y;
     }
