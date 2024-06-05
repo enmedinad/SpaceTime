@@ -1,0 +1,111 @@
+#crew{
+    background-image: url(../../website/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+.crew-pages{
+    flex-direction: row-reverse;
+}
+
+#crew-team{
+    display: flex;
+    position: relative;
+    height: max-content;
+    margin-top: 5%;
+}
+#crew-team .crew-pages[data-page = "0"]{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    transition: opacity 1s;
+}
+#crew-team .crew-pages[data-page = "1"]{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    transition: opacity 1s;
+}
+#crew-team .crew-pages[data-page = "2"]{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    transition: opacity 1s;
+}
+#crew-team .crew-pages[data-page = "3"]{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    transition: opacity 1s;
+}
+body{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+#crew-team .crew-pages[data-page = "0"] #select-crew .menu-item:nth-child(1) .crew-item{
+    background-color:  #FFFFFF;
+}
+#crew-team .crew-pages[data-page = "1"] #select-crew .menu-item:nth-child(2) .crew-item{
+    background-color:  #FFFFFF;
+}
+#crew-team .crew-pages[data-page = "2"] #select-crew .menu-item:nth-child(3) .crew-item{
+    background-color:  #FFFFFF;
+}
+#crew-team .crew-pages[data-page = "3"] #select-crew .menu-item:nth-child(4) .crew-item{
+    background-color:  #FFFFFF;
+}
+.col-12.col-md-12.col-lg-6.px-0.row-reverse{
+    overflow-y: hidden;
+    height: 100%;
+}
+.col-12.col-md-12.col-lg-6.px-0.row-reverse img{
+    height: 10%;
+}
+#title-planet{
+    font-size: 53px;
+}
+.crew-show{
+    z-index: 1!important;
+    opacity: 1!important;
+    display: flex!important;
+}
+#crew-role{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: bellefair;
+    font-family: 'Bellefair', serif;
+}
+.crew-item{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF50;
+    display: block;
+    margin:  auto 15px auto auto;
+}
+
+.menu-item:hover{
+    border-bottom: 0px solid #FFFFFF00;
+}
+.menu-item:hover .crew-item{
+    background-color: #FFFFFF;
+}
+#destination-text{
+    border: 1px solid #ffffff00!important;
+    padding-bottom: 30px!important;
+    height: fit-content;
+    margin-bottom: 50px;
+}
